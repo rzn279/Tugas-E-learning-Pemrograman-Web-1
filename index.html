@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rizky Nur Rahman 25552011213</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bs-primary: #cc0000;
+        --bs-primary2: #0e00cc;
+        --bs-primary-rgb: 204, 0, 0;
+        --bs-primary-bg-subtle: #fce4e4;
+        --bs-primary-text-emphasis: #990000;
+        --bs-primary-border-subtle: #f1b5b5;
+      }
+      body {
+        background-color: #f5f5f5 !important;
+      }
+      .navbar.bg-primary {
+        background-color: #cc0000 !important;
+      }
+      .article-banner {
+        height: 250px;
+        overflow: hidden;
+        background-color: #cc0000;
+      }
+      .article-banner img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .article-meta {
+        font-size: 0.9rem;
+      }
+      .article-body p {
+        line-height: 1.8;
+      }
+      .badge.text-bg-primary {
+        background-color: #cc0000 !important;
+      }
+      .btn-primary {
+        --bs-btn-bg: #cc0000;
+        --bs-btn-border-color: #cc0000;
+        --bs-btn-hover-bg: #990000;
+        --bs-btn-hover-border-color: #990000;
+        --bs-btn-active-bg: #800000;
+        --bs-btn-active-border-color: #800000;
+        --bs-btn-focus-shadow-rgb: 204, 0, 0;
+      }
+      a {
+        --bs-link-color-rgb: 204, 0, 0;
+        --bs-link-hover-color-rgb: 153, 0, 0;
+      }
+      .card {
+        border-color: #e5e5e5;
+      }
+    </style>
+  </head>
+
+  <body class="bg-light d-flex flex-column min-vh-100">
+    <header>
+      <nav class="navbar navbar-dark bg-primary py-0">
+        <div class="container flex-column align-items-start">
+          <a class="navbar-brand fw-bold py-3 mb-0" href="#">ZNews</a>
+
+          <ul
+            class="navbar-nav flex-row flex-wrap column-gap-3 border-top border-light-subtle border-opacity-25 w-100"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Berita</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kategori
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Teknologi</a></li>
+                <li><a class="dropdown-item" href="#">Pendidikan</a></li>
+                <li><a class="dropdown-item" href="#">Sosial</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#komentar">Komentar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-4">
+      <article class="card shadow-sm mb-4">
+        <div class="article-banner">
+          <img src="php2shell.png" alt="Vulnerability in PHP2Shell" />
+        </div>
+
+        <div class="card-body p-4">
+          <span class="badge text-bg-primary2 mb-2">Teknologi</span>
+
+          <h1 class="h2 fw-bold">
+            The PHP2Shell Vulnerability Heralds Cybersecurity Hell
+          </h1>
+
+          <p class="article-meta text-secondary mb-4">
+            Oleh <strong>Anonim</strong> &middot;
+            <time datetime="2026-11-02">10 November 2026</time> &middot; 3 menit
+            baca
+          </p>
+
+          <div class="article-body">
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+              nam dolores recusandae exercitationem quibusdam est corrupti,
+              delectus placeat molestiae a..
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
+              provident cum reiciendis, fugiat nulla ut. Quis eveniet delectus
+              perferendis, ab, facere odit sit cumque saepe ducimus ipsa
+              deserunt numquam impedit. Ullam expedita qui voluptatibus optio?.
+            </p>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+              numquam aliquam laborum id quo? Delectus beatae accusantium
+              praesentium quasi impedit. Quibusdam, magni aliquid itaque aperiam
+              repudiandae obcaecati perspiciatis quia provident..
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eum,
+              quam cum est odit quas placeat itaque, exercitationem labore
+              veniam, voluptatem ducimus? inovasi.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div class="row g-4" id="komentar">
+        <section class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5 fw-bold mb-3">Berita Terkait</h2>
+
+              <ul class="list-unstyled mb-0">
+                <li class="mb-3">
+                  <a class="link-dark fw-semibold text-decoration-none" href="#"
+                    >Tips Aman saat Mengikuti Demonstrasi</a
+                  ><br />
+                  <small class="text-secondary">1 November 2026</small>
+                </li>
+                <li class="mb-3">
+                  <a class="link-dark fw-semibold text-decoration-none" href="#"
+                    >Putusan Mahkamah Konstitusi terkait Kasus Ijazah Palsu</a
+                  ><br />
+                  <small class="text-secondary">30 November 2026</small>
+                </li>
+                <li>
+                  <a class="link-dark fw-semibold text-decoration-none" href="#"
+                    >Demo Mahasiswa di Hari Sumpah Pemuda</a
+                  ><br />
+                  <small class="text-secondary">28 November 2026</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5 fw-bold mb-3">Tulis Komentar</h2>
+
+              <form id="formKomentar" novalidate>
+                <div class="mb-3">
+                  <label for="nama" class="form-label">Nama</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nama"
+                    placeholder="Nama Anda"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="nama@email.com"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="isiKomentar" class="form-label">Komentar</label>
+                  <textarea
+                    class="form-control"
+                    id="isiKomentar"
+                    rows="4"
+                    placeholder="Tulis komentar Anda"
+                    minlength="5"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">
+                  Kirim Komentar
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5 fw-bold mb-3">
+                Komentar (<span id="jumlahKomentar">2</span>)
+              </h2>
+
+              <div id="daftarKomentar">
+                <div class="border-bottom pb-3 mb-3">
+                  <p class="fw-semibold mb-0">HaloDunya123</p>
+                  <small class="text-secondary">10 November 2026</small>
+                  <p class="mt-2 mb-0">Hello, World!.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white-50 text-center py-3 mt-auto">
+      <div class="container">
+        <small>&copy; 2026 ZNews. All rights reserved.</small>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      const formKomentar = document.getElementById("formKomentar");
+      const daftarKomentar = document.getElementById("daftarKomentar");
+      const jumlahKomentar = document.getElementById("jumlahKomentar");
+
+      const inputNama = document.getElementById("nama");
+      const inputEmail = document.getElementById("email");
+      const inputKomentar = document.getElementById("isiKomentar");
+
+      // Memproses pengiriman komentar
+      formKomentar.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Mengambil nilai input
+        const nama = inputNama.value.trim();
+        const email = inputEmail.value.trim();
+        const isi = inputKomentar.value.trim();
+
+        // Validasi input kosong
+        if (nama === "" || email === "" || isi === "") {
+          alert("Nama, email, dan komentar wajib diisi!");
+          return;
+        }
+
+        // Validasi format email
+        if (!inputEmail.checkValidity()) {
+          alert("Format email tidak valid!");
+          inputEmail.focus();
+          return;
+        }
+
+        // Membuat elemen komentar baru
+        const komentarBaru = document.createElement("div");
+        komentarBaru.className = "border-bottom pb-3 mb-3";
+
+        // Membuat elemen nama
+        const elemenNama = document.createElement("p");
+        elemenNama.className = "fw-semibold mb-0";
+        elemenNama.textContent = nama;
+
+        // Membuat elemen tanggal
+        const elemenTanggal = document.createElement("small");
+        elemenTanggal.className = "text-secondary";
+
+        const tanggal = new Date().toLocaleDateString("id-ID", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        });
+        elemenTanggal.textContent = tanggal;
+
+        // Membuat elemen isi komentar
+        const elemenIsi = document.createElement("p");
+        elemenIsi.className = "mt-2 mb-0";
+        elemenIsi.textContent = isi;
+
+        // Menggabungkan seluruh elemen
+        komentarBaru.appendChild(elemenNama);
+        komentarBaru.appendChild(elemenTanggal);
+        komentarBaru.appendChild(elemenIsi);
+
+        // Menambahkan komentar ke daftar (paling atas)
+        daftarKomentar.prepend(komentarBaru);
+
+        // Memperbarui jumlah komentar
+        jumlahKomentar.textContent = daftarKomentar.children.length;
+        formKomentar.reset();
+        alert("Komentar berhasil dikirim!");
+      });
+    </script>
+  </body>
+</html>
